@@ -12,6 +12,15 @@ https://frappelms.com/
      >>>
    command: bash /workspace/start.sh
 </pre>
+## docker cp elms_frappe_1:/home/frappe/frappe-bench/sites ./
+<pre>
+   volumes:
+      - ./sites:/home/frappe/frappe-bench/sites
+</pre>
+
+* lms.localhost/private/files
+* lms.localhost/public/files
+
 ## docker-compose up -d
 
 ## http://x.y.z:9000
