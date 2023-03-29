@@ -17,7 +17,7 @@ bench new-site lms.localhost \
 bench --site lms.localhost install-app lms
 bench --site lms.localhost set-config developer_mode 1
 bench --site lms.localhost clear-cache
-bench --site lms.localhost set-config mute_emails 1
+bench --site lms.localhost set-config mute_emails 0
 bench use lms.localhost
 
 bench start
