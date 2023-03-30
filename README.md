@@ -26,3 +26,10 @@ https://frappelms.com/
 ## http://x.y.z:9000
 # Administrator
 # admin
+
+<pre style="color:pink;">
+docker run --rm -ti \
+  --name=ctop \
+  --volume /var/run/docker.sock:/var/run/docker.sock:ro \
+  quay.io/vektorlab/ctop:latest
+</pre>
